@@ -7,7 +7,19 @@ const routes: Routes = [
   {
     path: '',
     component: FolderPage
-  }
+  },
+  // {
+  //   path: 'inbox',
+  //   loadChildren: () => import('./inbox/inbox.module').then( m => m.InboxPageModule)
+  // },
+  // {
+  //   path: 'outbox',
+  //   loadChildren: () => import('./outbox/outbox.module').then( m => m.OutboxPageModule)
+  // },
+  // {
+  //   path: 'detail',
+  //   loadChildren: () => import('./detail/detail.module').then( m => m.DetailPageModule)
+  // }
 ];
 
 @NgModule({
